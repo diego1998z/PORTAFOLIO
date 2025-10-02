@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  /* variables a cada color usado en todo el proyecto*/
+  --color-primary: #a6a182;
+  --color-secondary: #1f2120;
+  --text-color: #aeb0b4;
+  --color-light: #fff;
+  --color-divider: #ffffff1a;
+  --dark-color-divider: #0e110d;
+  /* Fuentes */
+  --default-font: "Hanken Grotesk", serif;
+  /* Breakpoints */
+  --breakpoint-sm: 576px;
+  /*tablet y celulares*/
+  --breakpoint-md: 768px;
+  /*Pequeñas laptops*/
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--default-font);
+  background-color: var(--color-primary);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 18px;
+}
+
